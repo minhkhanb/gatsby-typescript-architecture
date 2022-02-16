@@ -21,7 +21,7 @@ module.exports = {
         moduleDirectory: ['node_modules', 'src'],
       },
       alias: {
-        map: [['@src', './src']],
+        map: [['src', './src']],
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       },
     },

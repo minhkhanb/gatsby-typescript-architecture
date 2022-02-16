@@ -20,5 +20,15 @@ module.exports = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  },
+  {
+    resolve: "gatsby-plugin-sass",
+    options: {
+      useResolveUrlLoader: {
+        options: {
+          sourceMap: true, //default is false
+        },
+      },
+    },
+  },]
 };
